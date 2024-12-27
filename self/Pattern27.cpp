@@ -26,11 +26,16 @@ int main()
         }
         */
         count=n-i+1;
-        for(k=n;k>=i;k--)
+        for(k=1;k<=n-i+1;k++)
         {
             cout<<count;
             count--;
         }
+        /*for(k=n;k>=i;k--)
+        {
+            cout<<count;
+            count--;
+        }*/
         cout<<endl;
     }
 }
